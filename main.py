@@ -133,7 +133,7 @@ def precision(test_data, actual):
 
 
 def main():
-    with open("data/people's daily.txt") as f:
+    with open("data/people's daily.txt", encoding='utf8') as f:
         lines = f.readlines()
     # line is like 19980101-01-003-001/m  北京/ns  举行/v  新年/t  音乐会/n
     data = []
